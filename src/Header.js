@@ -1,15 +1,6 @@
-import Header from './Header.js'
-import Main from './Main.js'
-import Footer from './Footer.js'
-
-
-function App() {
-  return (
-    <div className="App">
-      <Header/>
-      <Main/>
-      <Footer/>
-      {/* <header>
+function Header () {
+    return (
+        <header>
         <nav className="left-menu">
           <ul>
             <li>About</li>
@@ -35,26 +26,7 @@ function App() {
             </li>
           </ul>
         </nav>
-      </header> */}
-
-      {/* <main>
-        <img
-          className="logo"
-          src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
-          alt="Google logo"
-        />
-        <input className="search-bar" type="search" />
-        <div className="buttons">
-          <button>Google Search</button>
-          <button>Feeling Lucky</button>
-        </div>
-      </main>
-
-      <footer>
-        <p className="country">United Kingdom</p>
-      </footer> */}
-    </div>
-  )
+      </header>
+    )
 }
-
-export default App
+export default Header
